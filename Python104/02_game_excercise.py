@@ -129,3 +129,13 @@ def play_game():
 
 # Start the game
 play_game()
+
+
+"""
+In this age prediction game, the player starts with $100. 
+They can place a bet and try to guess the randomly generated number between 1 and 10. 
+If they guess correctly, they win $100. If they guess incorrectly, they lose $25 for each attempt. 
+If they use all three attempts without guessing correctly, they lose an additional $50. 
+If the player runs out of money, they have the option to add more money or quit the game. 
+The game continues until the player chooses to quit or runs out of money.
+"""

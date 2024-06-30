@@ -28,12 +28,16 @@ class ATM:
     def __init__(self):
         self.balance = 0
         self.user_firstname = ""
+        self.user_lastname = ""
+        self.date_of_birth = ""
+        self.setup_account()
+        self.atm_menu()
     
     def setup_account(self):
         # Collect user details
         self.user_firstname = input("Enter your first name: ")
-        lastname = input("Enter your last name: ")
-        dob = input("Enter your date of birth (YYYY-MM-DD): ")
+        self.user_lastname = input("Enter your last name: ")
+        self.date_of_birth = input("Enter your date of birth (YYYY-MM-DD): ")
         print(f"Welcome {self.user_firstname}, your account is set up.")
     
     def atm_menu(self):
